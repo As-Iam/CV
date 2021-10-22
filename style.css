@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color:#E4F9F5 ;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+
+.profile-image{
+    height: 100px;
+    width:110px;
+    border:3px solid black;
+    border-radius: 20%;
+    float: left;
+    
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5{
+    color: #11999E;
+
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;
+}
+.header-contact:hover{
+    text-decoration: underline;
+    color: slategray;
+}
+.clear-div{
+    clear: both;
+
+}
+hr{
+    border:3px solid:gray;
+    width:100%;
+    margin: 20px auto;
+    border-bottom: none;
+    
+}
+
+#obj{
+
+}
+
+.content{
+    margin-bottom:30px ;
+}
+
+.left-div{
+    width:40%;
+    float: left;
+}
+.right-div{
+    width:60%;
+    float: left;   
+}
+.common-hr{
+    border:solid gray 1px;
+    border-bottom: none;
+    width:100%;
+    margin:20px auto;
+}
+#personal-info h3::first-letter{
+    color: coral;
+    font-size: 2rem;
+}
+
+#skills h3::first-letter{
+    color: coral;
+    font-size: 2rem;
+
+}
+
+#Certi h3::first-letter{
+    color: coral;
+    font-size: 2rem;
+}
+
+#Award h3::first-letter{
+    color: coral;
+    font-size: 2rem;
+}
+div .cgpa{
+    width: 80px;
+    float: right;
+    background-color:gray;
+    color: white;
+
+    
+}
+
+div.year{
+    width:98px;
+    float: right;
+    margin: none;
+    height: none;
+    background-color:coral;
+}
+
+
+#skills ul li{
+    list-style-type: none;
+    box-sizing: border-box;
+    margin:20px ;
+    width:130px;
+    height:50px;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    float: right;
+    background-color:tomato;
+    color:black;
+}
+
+.ref-template-left{
+    float:left ;
+    width:45%;
+}
+
+.ref-template-left{
+    float:right ;
+    width:45%;  
+}
+.bottom-container{
+    background-color:gray;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.bottom-container a{
+   color:white; 
+   text-decoration: none;
+   margin: 20px;
+}
+.bottom-container p{
+    color: black; 
+    text-decoration: none;
+    margin-top: 20;
+ }
